@@ -26,10 +26,16 @@ $(document).ready(function(){
                     // var location = parsed_json['location']['city'];
                     // var temp_f = parsed_json['current_observation']['temp_f'];
                     // $('.weatherdata').append("Current temperature in " + location + " is: " + temp_f);
+                    // var result = json['high'];
 
-                    var result = json['high'];
-                    $('.weatherdata').append(json[2]);
-                    console.log(json.forecast.simpleforecast.forecastday[0].conditions);
+                    $('.weatherdata1').append(json.forecast.txt_forecast.forecastday[2].title);
+                    $('.weatherdata2').append(json.forecast.txt_forecast.forecastday[2].fcttext);
+                    $('.weatherdata3').append(json.forecast.txt_forecast.forecastday[4].title);
+                    $('.weatherdata4').append(json.forecast.txt_forecast.forecastday[4].fcttext);
+                    // $('.weatherdata1').append("Conditions: " + json.forecast.simpleforecast.forecastday[1].conditions);
+                    // $('.weatherdata2').append("High: " + json.forecast.simpleforecast.forecastday[1].high.fahrenheit + " degrees");
+
+
                     console.log(json);
                 }
             });
