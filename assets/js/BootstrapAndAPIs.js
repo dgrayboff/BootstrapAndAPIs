@@ -23,27 +23,27 @@ $(document).ready(function(){
 
                         var a = json.forecast.txt_forecast.forecastday[i].fcttext;
                         if (a.toLowerCase().indexOf('sunny') != -1) {
-                          $('.icon1').append('<img src="http://icons.wxug.com/i/c/i/clear.gif"/>');
+                          $('.icon1').append('<img src="https://icons.wxug.com/i/c/i/clear.gif"/>');
                           $('.icon1').css('display', 'block');
                           console.log('Sunny');
                         }
                         if (a.toLowerCase().indexOf('partly') != -1) {
-                          $('.icon1').append('<img src="http://icons.wxug.com/i/c/i/mostlysunny.gif"/>');
+                          $('.icon1').append('<img src="https://icons.wxug.com/i/c/i/mostlysunny.gif"/>');
                           $('.icon1').css('display', 'block');
                           console.log('Partly');
                         }
                         if (a.toLowerCase().indexOf('thunderstorm') != -1) {
-                          $('.icon1').append('<img src="http://icons.wxug.com/i/c/i/chancetstorms.gif"/>');
+                          $('.icon1').append('<img src="https://icons.wxug.com/i/c/i/chancetstorms.gif"/>');
                           $('.icon1').css('display', 'block');
                           console.log('Thunderstorm');
                         }
                         if (a.toLowerCase().indexOf('rain') != -1) {
-                          $('.icon1').append('<img src="http://icons.wxug.com/i/c/i/chancerain.gif"/>');
+                          $('.icon1').append('<img src="https://icons.wxug.com/i/c/i/chancerain.gif"/>');
                           $('.icon1').css('display', 'block');
                           console.log('Rain');
                         }
                         if (a.toLowerCase().indexOf('clouds') != -1) {
-                          $('.icon1').append('<img src="http://icons.wxug.com/i/c/i/cloudy.gif"/>');
+                          $('.icon1').append('<img src="https://icons.wxug.com/i/c/i/cloudy.gif"/>');
                           $('.icon1').css('display', 'block');
                           console.log('Clouds');
                         }
@@ -60,27 +60,27 @@ $(document).ready(function(){
 
                         var b = json.forecast.txt_forecast.forecastday[i].fcttext;
                         if (b.toLowerCase().indexOf('sunny') != -1) {
-                          $('.icon2').append('<img src="http://icons.wxug.com/i/c/i/clear.gif"/>');
+                          $('.icon2').append('<img src="https://icons.wxug.com/i/c/i/clear.gif"/>');
                           $('.icon2').css('display', 'block');
                           console.log('Sunny');
                         }
                         if (b.toLowerCase().indexOf('partly') != -1) {
-                          $('.icon2').append('<img src="http://icons.wxug.com/i/c/i/mostlysunny.gif"/>');
+                          $('.icon2').append('<img src="https://icons.wxug.com/i/c/i/mostlysunny.gif"/>');
                           $('.icon2').css('display', 'block');
                           console.log('Partly');
                         }
                         if (b.toLowerCase().indexOf('thunderstorm') != -1) {
-                          $('.icon2').append('<img src="http://icons.wxug.com/i/c/i/chancetstorms.gif"/>');
+                          $('.icon2').append('<img src="https://icons.wxug.com/i/c/i/chancetstorms.gif"/>');
                           $('.icon2').css('display', 'block');
                           console.log('Thunderstorm');
                         }
                         if (b.toLowerCase().indexOf('rain') != -1) {
-                          $('.icon2').append('<img src="http://icons.wxug.com/i/c/i/chancerain.gif"/>');
+                          $('.icon2').append('<img src="https://icons.wxug.com/i/c/i/chancerain.gif"/>');
                           $('.icon2').css('display', 'block');
                           console.log('Rain');
                         }
                         if (b.toLowerCase().indexOf('clouds') != -1) {
-                          $('.icon2').append('<img src="http://icons.wxug.com/i/c/i/cloudy.gif"/>');
+                          $('.icon2').append('<img src="https://icons.wxug.com/i/c/i/cloudy.gif"/>');
                           $('.icon2').css('display', 'block');
                           console.log('Clouds');
                         }
