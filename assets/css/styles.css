@@ -29,6 +29,7 @@ body {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+  text-align: center;
 }
 
 /* Customize container */
@@ -47,11 +48,14 @@ body {
   border-bottom: 1px solid #e5e5e5;
   background-color: #DAA520;
   color: #FFF;
+  padding: 30px 15px;
 }
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
 }
+
+
 
 /* Supporting marketing content */
 .marketing {
@@ -121,3 +125,7 @@ h1 .jumbotron {
 .weatherdata2, .weatherdata4 {
   font-weight: 200;
 }
+
+/*.icons {
+  display: none;
+}*/
