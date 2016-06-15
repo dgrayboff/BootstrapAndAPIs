@@ -9,7 +9,7 @@ $(document).ready(function(){
         console.log(myState);
 
             $.ajax({
-                url: "http://api.wunderground.com/api/35c9d364b4732721/forecast10day/q/" + myState + "/" + myCity + "/" + ".json",
+                url: "https://api.wunderground.com/api/35c9d364b4732721/forecast10day/q/" + myState + "/" + myCity + "/" + ".json",
                 method: 'GET',
                 dataType: "JSON",
                 success: function(json) {
